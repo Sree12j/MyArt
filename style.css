@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container .navbar .link{
+    display:flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.main-container .navbar .link  button{
+    border:none;
+    background-color: transparent;
+}
+.main-container .navbar .link  button:hover{
+    background-color: rgb(240, 237, 237);
+    border-radius: 5px;
+}
+.main-container .navbar .link button a{
+   text-decoration: none;
+   font-size: 24px;
+   color:black ;
+   font-family: "Raleway", Arial, sans-serif;
+}
+.main-container .img-container{
+ display: flex;
+}
+.main-container .img-container .imgcontainer1{
+display: flex;
+flex-direction: column;
+color: black;
+}
+.img-container .imgcontainer1 img{
+  height:511px;
+}
+.main-container .img-container .imgcontainer2 img{
+    width: 100%;
+
+}
+.aboutsection{
+    text-align: center;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.aboutsection .userimg {
+  margin: 50px;
+}
+.aboutsection p{
+width: 50%;
+margin-left: 50%;
+transform: translate(-50%);
+}
+.aboutsection h3{
+ margin-top: 40px;
+ color: red;
+ font-size: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label{
+  margin-top: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+}
+form input{
+width: 50%;
+height: 40px;
+margin-top: 6px;
+}
+
+.aboutsection button{
+    width: 50%;
+    margin-top: 12px;
+    height: 40px;
+    background-color: rgb(131, 45, 45);
+    color: #fff;
+    border: none;
+}
+.aboutsection button:hover{
+  background-color:rgb(186, 176, 176);
+}
+footer{
+    text-align: center;
+    background-color: rgb(220, 228, 225);
+    padding: 30px;
+}
+@media(max-width:1000px){
+  .img-container{
+    display:flex;
+    flex-direction: column;
+}
+.aboutsection .userimg {
+    margin: 10px;
+    padding: 30px;
+  }
+  .aboutsection .userimg  img{
+   width: 100%;
+  }
+  form input{
+    width: 100%;
+    height: 30px;
+    margin-top: 6px;
+    }
+    .aboutsection button{
+        height: 30px;
+        background-color: rgb(200, 71, 71);  
+    }
+}
